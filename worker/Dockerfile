@@ -6,7 +6,7 @@
 # Provides a base Ubuntu (20.04) image with latest buildbot worker installed
 # the worker image is not optimized for size, but rather uses ubuntu for wider package availability
 
-FROM        ubuntu:20.04
+FROM        ubuntu:rolling
 MAINTAINER  Buildbot maintainers
 
 
