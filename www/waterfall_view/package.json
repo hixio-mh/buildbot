@@ -15,7 +15,7 @@
         "angular-mocks": "^1.7.9",
         "angular-ui-bootstrap": "^2.5.6",
         "buildbot-build-common": "link:../build_common",
-        "lodash": "^4.17.19",
+        "lodash": "^4.17.20",
         "rimraf": "^2.6.3"
     },
     "dependencies": {
