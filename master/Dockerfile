@@ -12,7 +12,7 @@
 # which get installed in the final image.
 # This allows us to avoid installing build tools like gcc in the final image.
 
-FROM        alpine:3.11 AS buildbot-build
+FROM        alpine:3 AS buildbot-build
 MAINTAINER  Buildbot maintainers
 
 # Last build date - this can be updated whenever there are security updates so
@@ -54,7 +54,7 @@ RUN \
 # Note that the UI and worker packages are the latest version published on pypi
 # This is to avoid pulling node inside this container
 
-FROM        alpine:3.11
+FROM        alpine:3
 MAINTAINER  Buildbot maintainers
 
 # Last build date - this can be updated whenever there are security updates so
