@@ -31,7 +31,7 @@ imagesize==1.2.0
 incremental==17.5.0
 ipaddress==1.0.23
 isort==4.3.21   # pyup: ignore (until https://github.com/PyCQA/pylint/pull/3725 is merged)
-Jinja2==2.11.2
+Jinja2==2.11.3
 jmespath==0.10.0
 jsonref==0.2
 lazy-object-proxy==1.5.1
@@ -48,7 +48,7 @@ parameterized==0.7.4
 pathlib2==2.3.5
 pbr==5.4.5
 pep8==1.7.1
-Pillow==7.2.0
+Pillow==8.1.0
 pyaml==20.4.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
