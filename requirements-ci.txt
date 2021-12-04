@@ -3,9 +3,9 @@ appdirs==1.4.4
 asn1crypto==1.4.0
 astroid==2.4.2; python_version >= "3.4"
 attrs==19.3.0
-autobahn==20.6.1  # pyup: ignore  (#5438)
+autobahn==20.12.3  # pyup: ignore  (#5438)
 Automat==20.2.0
-Babel==2.8.0
+Babel==2.9.1
 backports.functools-lru-cache==1.6.1
 blockdiag==2.0.1
 boto==2.49.0
@@ -17,7 +17,7 @@ click==7.1.2
 configparser==4.0.2  # pyup: ignore
 constantly==15.1.0
 cookies==2.2.1
-cryptography==3.0
+cryptography==3.2
 decorator==4.4.2
 dicttoxml==1.7.4
 docutils==0.16
@@ -31,12 +31,12 @@ imagesize==1.2.0
 incremental==17.5.0
 ipaddress==1.0.23
 isort==4.3.21   # pyup: ignore (until https://github.com/PyCQA/pylint/pull/3725 is merged)
-Jinja2==2.11.2
+Jinja2==2.11.3
 jmespath==0.10.0
 jsonref==0.2
 lazy-object-proxy==1.5.1
 lz4==3.1.0
-markdown2==2.3.9
+markdown2==2.4.2
 MarkupSafe==1.1.1
 mccabe==0.6.1
 # pin mock, because 4.x no longer supports Python 3.5
@@ -48,7 +48,7 @@ parameterized==0.7.4
 pathlib2==2.3.5
 pbr==5.4.5
 pep8==1.7.1
-Pillow==7.2.0
+Pillow==8.3.2
 pyaml==20.4.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
@@ -75,7 +75,7 @@ six==1.15.0
 snowballstemmer==2.0.0
 SQLAlchemy==1.3.18
 sqlalchemy-migrate==0.13.0
-sqlparse==0.3.1
+sqlparse==0.4.2
 Tempita==0.5.2
 termcolor==1.1.0
 toml==0.10.1
@@ -97,3 +97,4 @@ codecov==2.1.8
 -e pkg
 # we install buildbot www from pypi to avoid the slow nodejs build at each test
 buildbot-www==2.8.2
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
